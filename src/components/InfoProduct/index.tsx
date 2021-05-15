@@ -1,5 +1,4 @@
 import { Grid, Typography } from '@material-ui/core';
-import { collect } from 'collect.js';
 import React  from "react";
 import NumberFormat from 'react-number-format';
 import { Product } from '../../models/ProductModel';

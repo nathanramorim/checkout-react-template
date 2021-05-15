@@ -6,7 +6,6 @@ import { CreditCardMask, DataMMAAMask } from '../../utils/InputMask';
 
 const CreditCardForm = () => {
 	return (
-		<form noValidate autoComplete="off">
 			<Grid container spacing={3} style={{ marginTop: 10, marginBottom: 10 }}>
 				<Grid item sm={12} xs={12}>
 					<TextField
@@ -62,7 +61,6 @@ const CreditCardForm = () => {
 					/>
 				</Grid>
 			</Grid>
-		</form>
 	);
 };
 
